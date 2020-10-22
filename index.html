@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>Prasad Shinde</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<body>
+  <script src="scripts/script.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script> 
+  <script>  
+    $(function(){ 
+      $("#header").load("assets/header.html");  
+    }); 
+  </script>  
+
+  <!-- Navbar (sit on top) -->
+  <div id="header"></div> 
+  
+  <header class="w3-display-container w3-content" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="assets/background.jpg" alt="Background">
+    <div class="w3-display-middle w3-center">
+      <h1 class="" style="color: #FFF"><span class=""><b>Prasad Shinde</b></span></h1>
+      <h2 class="" style="color: #FFF"><span class="">iOS Developer | JavaScript Enthusiast </span></h2>
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <div class="w3-content w3-padding" style="max-width:1564px;">
+
+    <!-- Hightlights Section -->
+    <div id="Projects" class="tabcontent">
+    <div class="w3-container w3-padding-32" id="projects">
+      <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center">Highlights</h2>
+    </div>
+
+    <div class="w3-row-padding w3-container" style="background-color: #f2f6fa;">
+
+      <div class="w3-col s0 l2 m1 w3-margin-bottom"></div>
+
+      <div class="w3-col l4 m5 w3-margin-bottom">
+        <div class="w3-display-container tile" onclick="window.open('https://gallery.fitbit.com/developece78741c-19bc-4630-8200-942ef9711424', '_blank')">
+          <img src="assets/fitbit3.jpg" alt="Fitbit" style="width:100%">
+          <header>
+            <span class="w3-opacity">Fitbit</span>
+            <h4>Fitbit Clock-faces</h4>
+          </header>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendiposse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+
+      <div class="w3-col l4 m5 w3-margin-bottom">
+        <div class="w3-display-container tile" onclick="window.open('https://medium.com/@prasadshinde112how-to-easily-customize-a-popover-in-ios-65d1762b5b9', '_blank')">
+          <img src="assets/popover.jpg" alt="Popover" style="width:100%">
+          <header>
+            <span class="w3-opacity">Medium</span>
+            <h4>How to easily customize a popover in iOS?</h4>
+          </header>
+          
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+
+      <div class="w3-col s0 l2 m1 w3-margin-bottom"></div>
+    </div>
+  </div>
+
+</body>
+</html>
