@@ -36,7 +36,7 @@ header {
     font-size: 40px;
   }
 
-  h1.about-header {
+  h1.heading {
     font-size: 35px;
     margin-top: 35px;
 	margin-bottom: 35px;
@@ -45,6 +45,13 @@ header {
   h2 {
     font-size: 21px;
   }
+
+  #highlights {
+  	font-size: 30px;
+    margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -52,7 +59,7 @@ header {
     font-size: 25px;
   }
 
-  h1.about-header {
+  h1.heading {
     font-size: 30px;
     margin-top: 30px;
 	margin-bottom: 30px;
@@ -61,13 +68,20 @@ header {
   h2 {
     font-size: 16px;
   }
+
+  #highlights {
+  	font-size: 22px;
+    margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+  }
 }
 
-.about-header {
+.heading {
 	font-weight: bold;
 }
 
-#about-text {
+#text {
 	text-align: justify;
 	font-size: 17px;
 	color: #222;

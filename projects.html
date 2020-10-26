@@ -12,24 +12,24 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
     <script>  
       $(function(){ 
-        $("#header").load("assets/header.html");  
+        $("#navbar").load("assets/header.html");  
       }); 
     </script>
   </head>
 
   <body>
     <!-- Navbar (sit on top) -->
-    <div id="header"></div>
+    <div id="navbar"></div>
 
     <div class="w3-container w3-row-padding">
         <div class="w3-col s0 l3 m2 w3-margin-bottom"></div>
 
         <div class="w3-col s12 l6 m8 w3-margin-bottom">
-          <h1 class="w3-border-bottom w3-border-light-grey about-header">Projects</h1>
+          <h1 class="w3-border-bottom w3-border-light-grey heading">Projects</h1>
 
-          <h2 class="w3-border-bottom w3-border-light-grey about-header">Current</h2>
+          <h2 class="w3-border-bottom w3-border-light-grey heading">Current</h2>
 
-          <p id="about-text"> 
+          <p id="text"> 
               <a href="https://github.com/prasad1120/fanbrawl-api" target="_blank">FanBrawl API</a> (since 2019): A Node.js REST API using Express.js and MongoDB that serves as a scorekeeper for users competing on fantasy sports platforms. Users can create groups and compete with each other over the course of different tournaments. I'm planning on building a FanBrawl iOS app which would use this service.<br><br>
 
               <a href="https://gallery.fitbit.com/developer/ce78741c-19bc-4630-8200-942ef9711424" target="_blank">Fitbit Clock-faces</a>: Designed and built several Fitbit clock-faces having features including stats, weather, themes, settable texts and configurable sweeping seconds hand. Currently, I'm migrating existing clock-faces to the new Fitbit OS SDK 5 and building a few new ones. <br><br>
@@ -37,9 +37,9 @@
               <a style="color:#000;">Score-keeper</a>: An end to end system where screenshot of a match leaderboard from Dream11(fantasy sports platform) is added to an Android app which extracts data from and uploads it to a Google Apps Script web app which processes the data and displays various stats and charts in Google Sheets spreadsheets.
           </p> 
 
-          <h2 class="w3-border-bottom w3-border-light-grey about-header">Previous</h2>
+          <h2 class="w3-border-bottom w3-border-light-grey heading">Previous</h2>
             
-          <p id="about-text"> 
+          <p id="text"> 
               <a href="https://github.com/prasad1120/ElegantPopover" target="_blank">Elegant Popover</a> (2020): A Cocoapod that facilitates highly customisable popovers with multiple borders, borders styles (color and gradient) and arrow styles in iOS. The framework takes care of all the geometrical implementation details within its own subclass of <code>UIPopoverBackgroundView</code>.<br><br>
 
               <a style="color:#000;"> Clash of Memories</a> (2019): A two-player memory game in iOS (Swift) using Firebase as server, developed over the course of a 30 hour intra-company hackathon organized by Games24x7. The game was about two players competing in realtime to open all the tiles while also getting penalised when the opponent advances. It won us the top prize.<br><br>
