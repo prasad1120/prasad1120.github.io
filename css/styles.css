@@ -1,0 +1,108 @@
+body {
+	background-color: #f2f6fa;
+	padding-top: 50px;
+	font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+h4, h1, h2, h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+header {
+	padding-top: 8px;
+}
+
+.social-icon {
+	width: 35px;
+	height: 35px;
+}
+
+.tile {
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px 3px #DDD;
+	padding: 10px;
+	transition: transform .2s;
+	cursor: pointer;
+}
+
+.tile:hover {
+  transform: scale(1.015);
+}
+
+@media screen and (min-width: 701px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h1.heading {
+    font-size: 35px;
+    margin-top: 35px;
+	margin-bottom: 35px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  #highlights {
+  	font-size: 30px;
+    margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h1.heading {
+    font-size: 30px;
+    margin-top: 30px;
+	margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  #highlights {
+  	font-size: 22px;
+    margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+  }
+}
+
+.heading {
+	font-weight: bold;
+}
+
+#text {
+	text-align: justify;
+	font-size: 17px;
+	color: #222;
+}
+
+#about-img {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+a {
+	color: #4477aa;
+	font-weight: 500;
+}
+
+code {
+	font-family: Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace;
+	background-color: #dcdcdc;
+	padding: 3px 4px;
+	border-radius: 2px;
+	font-size: 15px;
+}
+
